@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9562f721-5c24-4ddc-be32-1e9fd80350b6" name="Changes" comment="primer commit">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solve.java" afterDir="false" />
+    <list default="true" id="9562f721-5c24-4ddc-be32-1e9fd80350b6" name="Changes" comment="los 20">
+      <change beforePath="$PROJECT_DIR$/src/solve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solve.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +74,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721921129834</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="primeros 15">
+      <option name="closed" value="true" />
+      <created>1722128691788</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722128691788</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="primer commit" />
+    <MESSAGE value="primeros 15" />
+    <MESSAGE value="los 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="los 20" />
   </component>
 </project>
