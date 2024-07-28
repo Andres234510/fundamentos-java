@@ -88,8 +88,8 @@ public class solve {
                 case 3:
                     System.out.println("¿Qué valor se imprimirá?");
                     double d = 100.04;
-                    long l = (long)d;
-                    int i = (int)l;
+                    long l = (long) d;
+                    int i = (int) l;
                     System.out.println(i);
                     break;
                 case 4:
@@ -149,7 +149,7 @@ public class solve {
                             "y = y * (x + 5);");
                     int y = scanner.nextInt();
                     int x = scanner.nextInt();
-                    y  *=  (x + 5);
+                    y *= (x + 5);
                     System.out.println(y);
                     break;
 
@@ -177,7 +177,7 @@ public class solve {
                     break;
 
 
-                case 16 :
+                case 16:
                     System.out.println("¿Cuál es el valor de x e y después de estas operaciones?\n" +
                             "int x = 5; int y = ++x;");
                     int x16 = 5;
@@ -209,11 +209,99 @@ public class solve {
                             "int x = 3; x = x++;");
                     int x20 = 3;
                     x20 = x20++;
-                    System.out.println(x20 );
+                    System.out.println(x20);
+                    break;
+                case 21:
+                    System.out.println("""
+                            ¿Cuál es el resultado de la siguiente expresión?
+                            int i = 5;
+                            i += ++i + i++ + ++i;""");
+                    int i21 = 5;
+                    i21 += ++i21 + i21++ + ++i21;
+                    System.out.println(i21);
+                    break;
+                case 22:
+                    System.out.println("Escribe código para convertir un double a un int, y luego incrementa el resultado en 1 usando el operador de postincremento.");
+                    double valorDouble = 3.7;
+                    int valorInt = (int) valorDouble; // Conversión de double a int
+                    valorInt++; // Incremento en 1 usando el operador de postincremento
+                    System.out.println("El valor int resultante es: " + valorInt);
+                    break;
+                case 23:
+                    System.out.println("""
+                            ¿Qué se imprimirá en la consola?
+                            double d = 5.7;\s
+                            int i = (int)d;\s
+                            i *= 2;\s
+                            System.out.println(i--);""");
+                    double d23 = 5.7;
+                    int i23 = (int) d23;
+                    i23 *= 2;
+                    System.out.println(i23--);
                     break;
 
+                case 24:
+                    System.out.println("Crea una expresión que use casteo y un operador de asignación compuesta para dividir un int por 2.0 y asignar el resultado a una variable double.");
+                    int numeroEntero = 10;
+                    double resultado24 = (double) numeroEntero / 2.0;
+                    System.out.println(resultado24);
+                    break;
+                case 25:
+                    System.out.println("""
+                            ¿Cuál es el resultado de la siguiente operación?
+                            char c = 'X';\s
+                            c += 32;\s
+                            System.out.println(c);""");
+                    char c25 = 'X';
+                    c25 += 32;
+                    System.out.println(c25);
+                    break;
 
+                case 26:
+                    System.out.println("Escribe código para convertir un long a un short, y luego usa un operador de asignación compuesta para multiplicarlo por 3.");
+                    long valorLong26 = 123456789L;
+                    short valorShort = (short) valorLong26; // Conversión de long a short
+                    valorShort *= 3; // Multiplication por 3 usando el operador de asignación compuesta
+                    System.out.println("El valor short resultante es: " + valorShort);
+                    break;
 
+                case 27:
+                    System.out.println("""
+                            ¿Qué valor tendrá x después de estas operaciones?
+                            int x = 10;\s
+                            x += (x++) + (++x);""");
+                    int x27 = 10;
+                    x27 += (x27++) + (++x27);
+                    System.out.println(x27);
+                    break;
+
+                case 28:
+                    System.out.println("Crea una expresión que use casteo para convertir un float a un byte, y luego usa el operador de predecremento.");
+                    float valorFloat = 3.7f;
+                    byte valorByte = (byte) valorFloat; // Conversión de float a byte
+                    --valorByte; // Predecremento en 1
+                    System.out.println("El valor byte resultante es: " + valorByte);
+                    break;
+
+                case 29:
+                    System.out.println("""
+                            ¿Cuál es el resultado de la siguiente operación?
+                            int i = 257;\s
+                            byte b = (byte)i;\s
+                            System.out.println(b);""");
+                    int i29 = 257;
+                    byte b29 = (byte)i29;
+                    System.out.println(b29);
+                    break;
+
+                case 30:
+                    System.out.println("Escribe una expresión que combine casteo, un operador de asignación compuesta y un operador de incremento para convertir un double a un int, sumarle 5 y luego incrementarlo en 1.");
+                    double valorDouble30 = 7.8;
+                    int valorInt30 = (int) valorDouble30; // Conversión de double a int
+                    valorInt30 += 5; // Suma 5
+                    ++valorInt30; // Incremento en 1
+                    System.out.println("El valor int resultante es: " + valorInt30);
+                    break;
                 case 0:
                     System.out.println("¡Hasta luego!");
                     break;
