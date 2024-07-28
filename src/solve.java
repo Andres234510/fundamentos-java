@@ -283,6 +283,7 @@ public class solve {
                     System.out.println("El valor byte resultante es: " + valorByte);
                     break;
 
+
                 case 29:
                     System.out.println("""
                             ¿Cuál es el resultado de la siguiente operación?
