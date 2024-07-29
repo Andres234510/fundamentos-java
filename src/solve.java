@@ -193,7 +193,7 @@ public class solve {
                     break;
                 case 18:
                     System.out.println("Escribe código que use el operador de decremento para disminuir una variable count en 1.");
-                    int count = 10;
+                    int count = scanner.nextInt();
                     count--; // Decremento en 1
                     System.out.println("El valor de count después del decremento es: " + count);
                     break;
@@ -261,7 +261,7 @@ public class solve {
                     System.out.println("Escribe código para convertir un long a un short, y luego usa un operador de asignación compuesta para multiplicarlo por 3.");
                     long valorLong26 = 123456789L;
                     short valorShort = (short) valorLong26; // Conversión de long a short
-                    valorShort *= 3; // Multiplication por 3 usando el operador de asignación compuesta
+                    valorShort *= 2; // Multiplication por 3 usando el operador de asignación compuesta
                     System.out.println("El valor short resultante es: " + valorShort);
                     break;
 
@@ -297,7 +297,7 @@ public class solve {
 
                 case 30:
                     System.out.println("Escribe una expresión que combine casteo, un operador de asignación compuesta y un operador de incremento para convertir un double a un int, sumarle 5 y luego incrementarlo en 1.");
-                    double valorDouble30 = 7.8;
+                    double valorDouble30 = 5.4;
                     int valorInt30 = (int) valorDouble30; // Conversión de double a int
                     valorInt30 += 5; // Suma 5
                     ++valorInt30; // Incremento en 1
